@@ -62,7 +62,7 @@ $one = str_replace(" ","",$one);
                         </tr>
                         <tr>
                             <td>Multitud:</td>
-                            <td>$3.99</td>
+                            <td>ARS 6.21</td>
                         </tr>
                         <tr>
                             <td>Fecha:</td>
