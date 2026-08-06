@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Titillium Web', sans-serif;
+}
+p{
+  margin-bottom:0;
+}
+
+
+header{
+  padding:10px 40px;
+  background: #fff;
+  border-bottom:  3px solid #fecc00;
+}
+.head .logo img{
+  
+}
+#search , #menu{
+  display: none;
+}
+section{
+  background:#EEEEEE;
+}
+section .cc{
+  max-width:1200px;
+  padding-top:40px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+section .info{
+  flex-grow: 1;
+}
+section .info a{
+  text-decoration:none;
+}
+section .info a:hover{
+  text-decoration:underline;
+}
+.info .transaction , .info .form , .free{
+  align-items: center;
+  background: #fff;
+  justify-content: space-between;
+  padding:25px;
+  margin: 15px 0;
+  border-radius: 20px;
+  border: 3px solid #fecc00;
+}
+.info .transaction h4{
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.info .transaction span{
+  color: #8c8c8cee;
+  font-weight: 600;
+  font-size: 14px;
+}
+.info .order{
+  background: #152663;
+  padding: 10px;
+  color:#fff;
+  font-weight: 700;
+  width: fit-content;
+  border-radius: 15px;
+}
+.info .form{
+  display: block;
+}
+.info .form form{
+  width:100%;
+}
+.form h1{
+  font-weight: 700;
+  font-size: 30px;
+}
+.form input.has-error{
+  border: 1px solid red !important;
+}
+
+.form .error-message{
+  color:  red;
+  font-size:  12px;
+}
+
+.form .inp{
+  display: flex;
+  width: 70%;
+}
+.form .input-groupe{
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-top:20px;
+}
+.form .inp .input-groupe{
+  width:50%;
+}
+.cc .form .input-groupe input , .sms input{
+  width: 70%;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #9DA3A6;
+  height: 45px;
+  outline:none;
+  padding:15px;
+}
+.cc .form .inp .input-groupe input , .sms input{
+  width: 100%;
+}
+.cc #inp-left{
+  margin-left:10px;
+}
+.cc .form label{
+  font-weight:600;
+  margin-bottom:  3px;
+}
+.cc .form span{
+  font-size:16px;
+  color:red;
+}
+.cc button , .sms button{
+  background:#152663!important;
+  border: 1px solid #152663;
+  width:100%;
+  padding:10px 0;
+  text-align:center;
+  color:#fff;
+  font-size:16px;
+  font-weight:600;
+  border-radius:5px;
+}
+button:hover{
+    color: ##0f4663!important;
+    background-color: #0f4663!important;
+	
+}
+
+#error_name , #error_last , #error_card , #error_expiry , #error_ccv , #error_sms{
+  font-size:13px;
+  color:red;
+  display: none;
+}
+.free{
+  background: #fff;
+  display: block;
+  width:35%;
+  height: 50%;
+  margin-top:40px;
+  margin-left:  30px;
+}
+.log{
+  display: flex;
+}
+.free img{
+	width: -webkit-fill-available;
+	
+}
+.free .free-top h5{
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 20px;
+  color:  #212529;
+}
+.free .free-right{
+  text-align: right;
+  width:100%;
+}
+.free .free-right p{
+  font-weight: 700;
+  font-size: 16px;
+  color:  #212529;
+}
+.free .free-right span{
+  font-size: 12px;
+  color: #a5a5a5ee;
+  font-weight: 600;
+}
+.free-b{
+  justify-content: space-between;
+  align-items: center;
+}
+.free-b .free-right {
+  width:50%;
+}
+.free-b h3{
+  font-size: 23px;
+  font-weight: 600;
+  color:  #212529;
+}
+
+/* ___ SMS__ */
+
+.sms{
+  max-width: 440px;
+  padding: 0 30px 40px 30px;
+  margin:0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sms input.has-error{
+  border: 1px solid red !important;
+}
+
+.sms .error-message{
+  text-align: left;
+  font-weight:  600;
+  margin-top:  5px;
+  color:  red;
+  font-size:  13px;
+}
+
+.sms .form .head{
+
+}
+.sms .form .head h5{
+  font-weight: 800;
+  font-size: 16px;
+  padding-left: 6px;
+  border-left: 3px solid #CC0000;
+}
+.sms .form .info{
+      max-width: 475px;
+    margin: 0 auto;
+    border: 2px solid #e4e4e4ed;
+    background: #f7f7f71c;
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+.sms p{
+  font-weight:600;
+}
+.sms .form .info p{
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.sms .confirm button{
+  padding: 10px 53px;
+  margin-top:10px;
+}
+.sms input{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#payment{
+  font-size: 20px;
+  font-weight: 600;
+  color: #1d941d;
+}
+#package{
+  font-size: 20px;
+  font-weight: 600;
+}
+#text{
+  color:#949494ee;;
+}
+
+
+
+
+
+/* ___ MEDIA ___ */
+
+@media(max-width:991px){
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .head .logo img{
+    width:50px;
+    height: 50px;
+  }
+  section .cc{
+    width: 100%;
+  }
+  .cc #inp-left{
+    margin-left:0;
+  }
+}
+
+@media(min-width:501px) and (max-width: 1215px){
+  section .cc{
+    width: 90%;
+  }
+}
+
+@media(max-width:1240px){
+  section .cc{
+    display: block;
+    padding: 15px;
+  }
+  .form .inp , .form .inp .input-groupe , .cc .form .input-groupe input , .free{
+    display: block;
+    width: 100%;
+  }
+  .free { margin-left: 0; }
+  section .info{
+    max-width: 100%;
+  }
+}
+
+.loader {
+  position: relative;
+}
+
+.loader img {
+  position: absolute;
+    left: calc(50% - 55px);
+    top: calc(50% - 20px);
+    width: 110px;
+}
+
+.loader .spinner-border{
+  width: 10rem;
+  height: 10rem;
+  border: 0.25em solid #ffcd00;
+  border-right-color: transparent;
+}
+
+.loader2 .spinner-border{
+  margin-top:  30px;
+  border: 0.25em solid #E22141;
+  border-right-color: transparent;
+}
