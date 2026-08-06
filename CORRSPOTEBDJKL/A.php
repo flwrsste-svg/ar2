@@ -93,14 +93,14 @@ include("./Conan/911.php");
                             <h5>Gastos de envío adicionales</h5>
                         <div class="free-right">
                             <p>$3.99</p>
-                            <span>($3.99  IVA incluido)</span>
+                            <span>(ARS 6.21  IVA incluido)</span>
                         </div>
                     </div>
                     <hr>
                     <div class="free-b d-flex">
                         <h3>Total</h3>
                         <div class="free-right">
-                            <p>$3.99</p>
+                            <p>ARS 6.21</p>
                             <span>(VAT incluido)</span>
                         </div>
                     </div>
